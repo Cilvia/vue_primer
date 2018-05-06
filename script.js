@@ -24,3 +24,18 @@ new Vue({
         }
     }
 });
+
+var vm = new Vue({
+    el: '.js-component20',
+
+    data: {
+        name: 'みかん',
+        price: 100
+    },
+
+    computed: {
+        priceWithTax: function () {
+            return this.price * 1.08;
+        }
+    }
+});
