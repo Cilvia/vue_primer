@@ -10,6 +10,11 @@
         <p>mustache構文の出力を表示します : {{ text }}</p>
         <p>v-textの情報を表示します : <span v-text="text"></span></p>
     </div>
+
+    <div class="js-component02">
+        <p><input v-model="text" type="text"></p>
+        <p>入力文字列を表示します : {{ text }}</p>
+    </div>
     
     <script src="vue.js"></script>
     <script src="script.js"></script>
