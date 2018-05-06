@@ -15,6 +15,12 @@
         <p><input v-model="text" type="text"></p>
         <p>入力文字列を表示します : {{ text }}</p>
     </div>
+
+    <div class="js-component03">
+        <p><input v-model="input" type="text"></p>
+        <p v-on:click="output">入力文字列を反映</p>
+        <p>ここに入力文字列を表示します : {{ text }}</p>
+    </div>
     
     <script src="vue.js"></script>
     <script src="script.js"></script>
